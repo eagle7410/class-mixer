@@ -1,26 +1,3 @@
-# class-mixer
-Doit mixing classes ECMA6
-## Install
- 
-```bash
-npm install class-mixer --save
-```
-
-Example use :
-```js
-const A = require('./classes/A');
-const B = require('./classes/B');
-const mixing = require('class-mixer');
-
-class Test extends mixing(A, B) {}
-
-```
-
-## People
-Developer [Igor Stcherbina](https://drive.google.com/file/d/1tm6j8uGoeEbaVDYKlsQlkkxAD5WMXp3-/view?usp=sharing)
-
-## License
-
 MIT License
 
 Copyright (c) 2018 [Igor Stcherbina](https://github.com/eagle7410)
